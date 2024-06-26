@@ -23,7 +23,7 @@
 
 .add-product {
 
-  width: 40%;
+  width: 50%;
  // height: 100vh;
   //overflow: scroll;
   justify-content: center;
@@ -85,3 +85,14 @@
   justify-content: center;
   gap: 10px;
 }
+
+
+@media (max-width: 1500px) {
+  .add-product{
+    display: flex;
+     width: 90%;
+     min-height: 90%;
+  }
+ 
+}
+
